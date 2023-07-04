@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  padding: 5rem 10rem;
+  gap: 10rem;
+}
+
+.imgContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.findImg {
+  margin-top: 10px;
+}
+.findImg label {
+  cursor: pointer;
+  background-color: gray;
+  padding: 5px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul li {
+  display: inline-block;
+}
+
+.ul li:not(:first-child) {
+  height: 40px;
+  background-color: gray;
+}
+
+.addBtn {
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 50px;
+}
+
+.img {
+  position: static !important;
+}
+
+.albumInputs {
+}
